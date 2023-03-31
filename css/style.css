@@ -132,8 +132,41 @@ img {
 
     .container {
        width: 90%;
-       margin: 0 auto;
-       padding: 0 20px;
-   }
+   }    
+}
+
+
+/* smartphone responsive */
+@media screen and (max-width:480px) {
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    /* .steps {
+        margin: 0;
+    } */
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us {
+        background-color: #222222;        
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
     
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    
+
 }
