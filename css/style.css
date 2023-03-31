@@ -147,16 +147,22 @@ img {
         width: 100%;
     }
 
-    /* .steps {
+    .steps {
         margin: 0;
-    } */
+    }
 
     .steps .col {
         width: 100%;
     }
 
     .why-us {
-        background-color: #222222;        
+        background-color: #222222; 
+        margin-bottom: 0;  
+        padding-bottom: 3rem;     
+    }
+
+    .why-us .text-center{
+        padding-top: 3rem;
     }
 
     .why-us .col-left {
@@ -165,8 +171,5 @@ img {
     
     .why-us .col-right {
         width: 100%;
-    }
-
-    
-
+    }   
 }
